@@ -89,7 +89,7 @@ header nav a.active {
 
 .shapes {
   position: relative;
-  top: 68px;
+  top: 63px;
   right: -1px;
 }
 
@@ -100,4 +100,76 @@ header nav a.active {
 .home-img img {
   object-fit: cover;
   object-position: center;
+}
+
+.home-sponsors {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.sponsor-text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.sponsor-text p {
+  color: rgb(197, 197, 197);
+  font-size: 14px;
+  font-weight: 500;
+}
+.sponsor-text span {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 500;
+}
+
+footer {
+  padding: 4rem 0;
+}
+
+.subscribe-box {
+  width: 100%;
+  height: 20rem;
+  background-color: #666dff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  gap: 15rem;
+}
+
+.subscribe-text h3 {
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  color: #ffebff;
+}
+
+.subscribe-text h2 {
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 25px;
+  max-width: 600px;
+  line-height: 1.4;
+}
+
+.subscribe-form input {
+  width: 400px;
+  max-width: 90%;
+  padding: 20px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  color: #232536;
+}
+
+.subscribe-form input::placeholder {
+  color: #999;
+  padding: 20px 300px 20px 30px;
 }
