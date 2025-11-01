@@ -624,3 +624,49 @@ footer {
   font-size: 16px;
   text-align: justify;
 }
+
+.notfound-section {
+  background-color: var(--home-bg);
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+}
+
+.notfound-content h1 {
+  font-size: 100px;
+  font-weight: 700;
+  color: var(--button-bg-color);
+  margin-bottom: 10px;
+}
+
+.notfound-content h2 {
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.notfound-content p {
+  font-size: 16px;
+  color: rgb(202, 202, 202);
+  margin-bottom: 30px;
+  max-width: 500px;
+  line-height: 1.6;
+}
+
+.back-home-btn {
+  background-color: var(--button-bg-color);
+  color: white;
+  padding: 15px 30px;
+  border-radius: 4px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.back-home-btn:hover {
+  background-color: rgba(68, 76, 252, 0.8);
+}
